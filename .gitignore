@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# TypeScript build output
+dist/*
+
+# clasp credentials (if accidentally created)
+.clasp.json
+
+# Mac/Linux system files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: if you generate a credentials.json manually for clasp auth
+credentials.json
+
+# IDE/editor files
+.idea/
+.vscode/*
+!.vscode/settings.sample.json

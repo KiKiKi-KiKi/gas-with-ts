@@ -1,0 +1,20 @@
+{
+  "name": "template-gas-typescript",
+  "version": "1.0.0",
+  "description": "Template for Google Apps Script with TypeScript",
+  "type": "commonjs",
+  "scripts": {
+    "build": "node esbuild.mjs",
+    "push": "clasp push",
+    "open": "clasp open",
+    "deploy": "npm run build && npm run push"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.5.0",
+    "@types/google-apps-script": "^1.0.97",
+    "esbuild": "^0.25.2",
+    "esbuild-gas-plugin": "^0.9.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  }
+}

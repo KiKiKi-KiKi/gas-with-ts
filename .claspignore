@@ -1,0 +1,12 @@
+**/.claspignore
+**/node_modules/**
+**/.git/**
+**/.gitignore
+**/.vscode/*
+**/.prettier.json
+**/src/**
+**/esbuild.js
+**/package.json
+**/package-lock.json
+**/tsconfig.json
+**/README.md
